@@ -1,0 +1,17 @@
+{
+  "name": "streamhere",
+  "version": "1.0.0",
+  "description": "streamhere is a browser based live streaming platform",
+  "main": "index.js",
+  "type": "module",
+  "author": "atul kumar",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4",
+    "socket.io": "^4.7.5"
+  }
+}
